@@ -136,7 +136,7 @@ Page({
             })
     },
     onSwiperChange(e: any) {
-        // console.log(e)
+        console.log(e)
     },
     onRegisterTap() {
         wx.navigateTo({

@@ -19,8 +19,8 @@
     "lib": [
       "ES2020"
     ],
-    "typeRoots": [
-      "./typings"
+    "types": [
+      "miniprogram-api-typings"
     ]
   },
   "include": [
