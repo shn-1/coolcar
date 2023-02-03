@@ -22,7 +22,7 @@ message Trip{
     Location end_pos = 6;
     int32 duration_sec = 3;
     int32 fee_cent = 4;
-    TripStatus TripStatus = 8;
+    TripStatus status = 8;
 }
 message GetTripRequest {
     string id = 1; 

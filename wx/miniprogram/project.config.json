@@ -15,7 +15,7 @@
         "minified": true,
         "newFeature": false,
         "coverView": true,
-        "nodeModules": false,
+        "nodeModules": true,
         "autoAudits": false,
         "showShadowRootInWxmlPanel": true,
         "scopeDataCheck": false,
@@ -45,7 +45,7 @@
         "useCompilerPlugins": [
             "typescript"
         ],
-        "ignoreUploadUnusedFiles": true
+        "ignoreUploadUnusedFiles": false
     },
     "simulatorType": "wechat",
     "simulatorPluginLibVersion": {},
@@ -56,5 +56,10 @@
     "editorSetting": {
         "tabIndent": "insertSpaces",
         "tabSize": 4
+    },
+    "scripts": {
+        "beforeCompile": "npm run tsc",
+        "beforePreview": "npm run tsc",
+        "beforeUpload": "npm run tsc"
     }
 }
